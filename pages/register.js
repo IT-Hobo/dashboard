@@ -3,7 +3,7 @@ import { ImOffice } from "react-icons/im";
 const Register = () => {
   return (
     <div className=" flex justify-center">
-      <div className="z-0 mt-12 ml-24 h-[650px] w-[400px] rounded-xl bg-gradient-to-b from-rose-400 via-orange-100 to-orange-100 shadow-xl">
+      <div className="mt-24 h-[650px] w-[400px] rounded-xl bg-gradient-to-b from-rose-400 via-orange-100 to-orange-100 shadow-xl">
         <div className="float-left p-8 text-white">
           <ImOffice size="120" />
           <h1 className="text-2xl">Company Name</h1>

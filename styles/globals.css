@@ -13,5 +13,13 @@
       /* transition-all duration-300 ease-linear
       cursor-pointer shadow-lg  */;
     }
+
+    .small-sidebar {
+      @apply fixed top-0 h-full w-24 shadow-2xl md:hidden
+    }
+
+    .nav-bar {
+      @apply  bg-white border-gray-200 shadow-md px-2 py-2.5 
+    }
    
 }

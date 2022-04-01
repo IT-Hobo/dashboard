@@ -23,33 +23,33 @@ const SideBar = () => {
         router.push(path);
       case "/account":
         router.push(path);
-        case "/register":
+      case "/register":
         router.push(path);
-
     }
   };
   return (
-    <div className="fixed top-0 h-full w-24 bg-gray-700 shadow-2xl z-10">
-      <div>
-        <div className="flex flex-col-reverse">
-          <button onClick={(e) => handleClick(e, "/")}>
-            <SideBarIcon icon={<FaHome size="28" />} />
-          </button>
-          <button onClick={(e) => handleClick(e, "/docs")}>
-            <SideBarIcon icon={<HiDocument size="28" />} />
-          </button>
+    <div>
+      <div className="small-sidebar">
+          <div className="flex flex-col">
+            <button onClick={(e) => handleClick(e, "/")}>
+              <SideBarIcon icon={<FaHome size="28" />} />
+            </button>
+            <button onClick={(e) => handleClick(e, "/docs")}>
+              <SideBarIcon icon={<HiDocument size="28" />} />
+            </button>
+          </div>
+          <div className="fixed bottom-2 flex flex-col px-5">
+            <button onClick={(e) => handleClick(e, "/account")}>
+              <SideBarIcon icon={<VscAccount size="28" />} />
+            </button>
+            <button onClick={(e) => handleClick(e, "/settings")}>
+              <SideBarIcon icon={<BsGearWideConnected size="28" />} />
+            </button>
+          </div>
         </div>
-        <div className="fixed flex flex-col bottom-2 px-5">
-          <button onClick={(e) => handleClick(e, "/account")}>
-            <SideBarIcon icon={<VscAccount size="28" />} />
-          </button>
+        </div>
 
-          <button onClick={(e) => handleClick(e, "/settings")}>
-            <SideBarIcon icon={<BsGearWideConnected size="28" />} />
-          </button>
-        </div>
-      </div>
-    </div>
+
   );
 };
 
