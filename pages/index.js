@@ -16,10 +16,10 @@ export default function Home(props) {
   return (
     <div className="flex flex-col">
       <div className="my-6 flex justify-center">
-        <span className="text-8xl text-blue-600">Dashboard</span>
+
       </div>
       <Layout>
-        <div className=" grid grid-flow-col justify-evenly">
+        <div className="flex flex-col justify-evenly md:flex-row items-center space-y-4  ">
           {props.coffeeStores.map((coffeeStore) => {
             return (
               <Card
