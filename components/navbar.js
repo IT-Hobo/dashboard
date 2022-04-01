@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <div className="nav-bar hidden mdhide:block">
         <nav className="container mx-auto flex flex-wrap items-center justify-between">
-          <div className="flex-none cursor-pointer">
+          <div className="flex-grow-0 cursor-pointer">
         <Link href="/" passHref>
           <ImOffice size="32"/>
         </Link>

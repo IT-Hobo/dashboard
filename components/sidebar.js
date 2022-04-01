@@ -48,8 +48,6 @@ const SideBar = () => {
           </div>
         </div>
         </div>
-
-
   );
 };
 
