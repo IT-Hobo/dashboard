@@ -6,11 +6,11 @@ const Register = () => {
       <div className="mt-24 h-[650px] w-[400px] rounded-xl bg-gradient-to-b from-rose-400 via-orange-100 to-orange-100 shadow-xl">
         <div className="float-left p-8 text-white">
           <ImOffice size="120" />
-          <h1 className="text-2xl">Company Name</h1>
+          <h1 className="text-2xl drop-shadow-xl">Company Name</h1>
         </div>
         <div className="pt-[230px]">
-          <h1 className="px-8 text-4xl font-semibold text-white ">Sign in</h1>
-          <form action="POST" className="flex mt-2 p-8  justify-center items-center">
+          <h1 className="px-8 text-4xl font-semibold text-white drop-shadow-xl ">Sign in</h1>
+          <form  className="flex mt-2 p-8  justify-center items-center">
             <div>
               <input
                 id="email"
