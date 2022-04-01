@@ -30,7 +30,7 @@ const SideBar = () => {
   return (
     <div>
       <div className="small-sidebar">
-          <div className="flex flex-col-reverse">
+          <div className="flex flex-col">
             <button onClick={(e) => handleClick(e, "/")}>
               <SideBarIcon icon={<FaHome size="28" />} />
             </button>
@@ -42,7 +42,6 @@ const SideBar = () => {
             <button onClick={(e) => handleClick(e, "/account")}>
               <SideBarIcon icon={<VscAccount size="28" />} />
             </button>
-
             <button onClick={(e) => handleClick(e, "/settings")}>
               <SideBarIcon icon={<BsGearWideConnected size="28" />} />
             </button>
